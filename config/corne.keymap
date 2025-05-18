@@ -26,7 +26,7 @@
                         bindings = <
 								&trans		&kp N1 		&kp N2      &kp N3      &kp N4      &kp N5         				&kp N6   	&kp N7   	&kp N8 		&kp N9    	&kp N0 		&trans
 								&trans		&kp AMPS    &kp LBKT    &kp LBRC    &kp LPAR    &kp UP         				&kp DOWN 	&kp RPAR 	&kp RBRC 	&kp RBKT 	&PIPE 		&trans
-								&caps_word	&trans      &trans      &trans      &trans      &kp LEFT      				&kp RIGHT	&trans		&trans		&trans		&trans		&caps_word
+								&trans		&trans      &trans      &trans      &trans      &kp LEFT      				&kp RIGHT	&trans		&trans		&trans		&trans		&trans
                             										&trans   	&trans      &trans      				&trans  	&trans   	&trans
                         >;
                 };
