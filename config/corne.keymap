@@ -12,17 +12,27 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                
+            	selector {
+						display-name = "Select layer";
+						bindings = <
+								&none   	&none   	&none   	&none   	&none   	&none           			&none   	&none   	&none   	&none   	&none   	&none
+								&none   	&none   	&none   	&to 4   	&to 1   	&none           			&none   	&none   	&none   	&none   	&none   	&none
+								&none   	&none   	&none   	&none   	&none   	&none           			&none   	&none   	&none   	&none   	&none   	&none
+																	&none   	&none   	&none           			&none   	&none   	&none
+    					>;
+				};
 				typing {
+						display-name = "Typing";
 						bindings = <
 								&kp TAB		&kp SEMI	&kp COMMA	&kp DOT		&kp P    	&kp Y						&kp F   	&kp G 		&kp C  		&kp R 		&kp L 		&kp BSPC
 								&kp ESC		&kp A    	&kp O		&kp E 		&kp U   	&kp I 						&kp D   	&kp H 		&kp T  		&kp N 		&kp S 		&kp MINUS
 								&kp LSHFT	&kp QUOT 	&kp Q 		&kp J 		&kp K 		&kp X						&kp B   	&kp M 		&kp W  		&kp V 		&kp Z 		&kp RSHFT
-																	&kp LCTRL	&mo 1		&kp SPACE					&kp RET 	&mo 2 		&kp RALT
+																	&kp LCTRL	&mo 2		&kp SPACE					&kp RET 	&mo 2 		&kp RALT
 					    >;
 				};
 
                 brace {
+						display-name = "Typing";
                         bindings = <
 								&trans		&kp N1 		&kp N2      &kp N3      &kp N4      &kp N5         				&kp N6   	&kp N7   	&kp N8 		&kp N9    	&kp N0 		&trans
 								&trans		&kp AMPS    &kp LBKT    &kp LBRC    &kp LPAR    &kp UP         				&kp DOWN 	&kp RPAR 	&kp RBRC 	&kp RBKT 	&kp PIPE 	&trans
@@ -32,6 +42,7 @@
                 };
 
                 symboles {
+						display-name = "Typing";
                         bindings = <
 								&trans		&trans		&trans		&trans		&trans		&trans         				&trans		&trans		&trans		&trans		&trans		&trans
 								&kp DEL		&kp EXCLAMATION	&kp AT	&kp HASH	&kp DOLLAR	&kp PERCENT					&kp CARET	&kp AMPS	&kp ASTERISK &kp PLUS	&kp EQUAL	&trans
@@ -40,16 +51,8 @@
                         >;
                 };
 
-				selector {
-						bindings = <
-								&none   	&none   	&none   	&none   	&none   	&none           			&none   	&none   	&none   	&none   	&none   	&none
-								&none   	&none   	&none   	&none   	&to 4   	&none           			&none   	&none   	&none   	&none   	&none   	&none
-								&none   	&none   	&none   	&none   	&none   	&none           			&none   	&none   	&none   	&none   	&none   	&none
-																	&none   	&none   	&none           			&none   	&none   	&none
-    					>;
-				};
-
 				figma {
+						display-name = "Figma";
 						bindings = <
 								&none   	&none   	&none   	&none   	&none   	&none           			&none   	&none   	&none   	&none   	&none   	&none
 								&kp ESC	   	&none   	&none   	&kp T   	&kp F		&none           			&none   	&none   	&none   	&none   	&none   	&none
