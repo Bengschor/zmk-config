@@ -37,6 +37,7 @@
 								&kp DEL		&kp EXCLAMATION	&kp AT	&kp HASH	&kp DOLLAR	&kp PERCENT					&kp CARET	&kp AMPS	&kp ASTERISK &kp PLUS	&kp EQUAL	&trans
 								&trans		&trans		&trans		&kp TILDE	&kp SLASH	&trans						&trans		&kp BACKSLASH &kp QUESTION &trans	&trans		&trans
                             										&trans		&trans		&trans						&trans		&trans		&trans
+                        >;
                 };
         };
 };
@@ -44,9 +45,10 @@
 
 /*              layer_name {
  *                     bindings = <
- *							&trans		&trans		&trans		&trans		&trans		&trans         				&trans		&trans		&trans		&trans		&trans		&trans
- *							&trans		&trans		&trans		&trans		&trans		&trans						&trans		&trans		&trans		&trans		&trans		&trans
- *							&trans		&trans		&trans		&trans		&trans		&trans						&trans		&trans		&trans		&trans		&trans		&trans
- *																&trans		&trans		&trans						&trans		&trans		&trans
+ *								&trans		&trans		&trans		&trans		&trans		&trans         				&trans		&trans		&trans		&trans		&trans		&trans
+ *								&trans		&trans		&trans		&trans		&trans		&trans						&trans		&trans		&trans		&trans		&trans		&trans
+ *								&trans		&trans		&trans		&trans		&trans		&trans						&trans		&trans		&trans		&trans		&trans		&trans
+ *																	&trans		&trans		&trans						&trans		&trans		&trans
+ *                     >;
  *				};
  */
